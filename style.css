@@ -1,0 +1,97 @@
+input#unmute {
+    display: none;
+}
+
+.unmute svg {
+    display: none;
+}
+
+input#unmute:checked ~ .unmute svg {
+    display: initial;
+}
+
+input#unmute:checked ~ .mute svg {
+    display: none;
+}
+
+h1#title {
+    align-content: center;
+}
+
+.top-bg {
+    background-color:rgb(228, 255, 222);
+}
+
+.text-top {
+    vertical-align: middle;
+    padding-top: 4em;
+    padding-left:5em;
+}
+
+.text-pad {
+    padding: 5em 0 5em 0;
+}
+
+#title {
+    padding-top: 22vh;
+}
+
+#top-img {
+    margin-bottom: 4em;
+    padding-left: 4em;
+    height: 800px;
+    width: 340px;
+    object-fit: cover;
+}
+
+#about-me {
+    background-color: rgb(255,255,255);
+}
+
+#about-me h3 {
+    border-bottom: 2px solid;
+    padding-bottom: 0.2em;
+    margin-right: 65vw;
+}
+
+#my-art {
+    padding: 1em 1em 1em 1em;
+    padding-top: 2em;
+    overflow: hidden;
+    align-self: center;
+}
+
+#my-art h3 {
+    border-bottom: 2px solid;
+    margin-bottom: 1em;
+    margin-right: 65vw;
+    margin-left: 1.5em;
+    padding-bottom: 0.2em;
+}
+
+#my-art img{
+    max-width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+#modal-image {
+    width: 100%
+}
+
+#modal-close {
+    padding-top: 1.5em;
+    padding-right: 1.5em;
+    align-self: flex-end;
+}
+
+#footer {
+    margin-top:2em;
+    padding-top: 3em;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+#copyright {
+    display: inline;
+}
